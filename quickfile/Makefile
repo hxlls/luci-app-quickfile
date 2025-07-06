@@ -12,7 +12,7 @@ PKG_RELEASE:=1
 
 PKG_SOURCE:=quickfile-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://github.com/sbwml/luci-app-quickfile/releases/download/bin/
-PKG_HASH:=320bffa19d27c693e5ee0470d386dbb91b470bec8ac86cdf5455f7fe7e95f6e9
+PKG_HASH:=747c9f50fee4a128bb8a0023c7a1ed80a32edf80884cfd972312b699f0aa0698
 
 include $(INCLUDE_DIR)/package.mk
 
