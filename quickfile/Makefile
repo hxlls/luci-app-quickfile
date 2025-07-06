@@ -33,7 +33,7 @@ define Build/Compile
 endef
 
 define Package/quickfile/install
-	$(INSTALL_DIR) $(1)/usr/sbin
+	$(INSTALL_DIR) $(1)/usr/bin
 	$(INSTALL_BIN) $(PKG_BUILD_DIR)/quickfile-$(ARCH_PACKAGES) $(1)/usr/bin/quickfile
 	$(INSTALL_DIR) $(1)/etc/config $(1)/etc/init.d $(1)/etc/nginx/conf.d
 	$(INSTALL_CONF) $(CURDIR)/files/quickfile.config $(1)/etc/config/quickfile
