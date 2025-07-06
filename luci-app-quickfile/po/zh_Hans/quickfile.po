@@ -2,4 +2,4 @@ msgid ""
 msgstr "Content-Type: text/plain; charset=UTF-8"
 
 msgid "Quick File Manager"
-msgstr "Quick 文件管理"
+msgstr "文件管理"
