@@ -11,8 +11,8 @@ PKG_VERSION:=1.0.0
 PKG_RELEASE:=1
 
 PKG_SOURCE:=quickfile-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://github.com/sbwml/luci-app-quickfile/releases/download/bin/
-PKG_HASH:=747c9f50fee4a128bb8a0023c7a1ed80a32edf80884cfd972312b699f0aa0698
+PKG_SOURCE_URL:=https://down.cooluc.com/bin/quickfile/openwrt
+PKG_HASH:=a17fb6b5e96018c45c89f1119e68bc39fcb534767d1f95089efc0a6d41c10d36
 
 include $(INCLUDE_DIR)/package.mk
 
